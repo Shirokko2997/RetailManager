@@ -15,7 +15,7 @@ namespace WebAPI.Controllers
         public IEnumerable<string> Get()
         {
             string userid = RequestContext.Principal.Identity.GetUserId();
-            return new string[] { "value1", "value2", userid };
+            return new string [] {"value1", "value2", userid };
         }
 
         // GET api/values/5
